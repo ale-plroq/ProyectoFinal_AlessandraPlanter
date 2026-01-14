@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1ed72c1a4bf16014db3a0b67ebdd05ba
+guid: 86ec680a0c5279849bece7d9710643de
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,12 +110,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: monster_anim_0
+      name: monster_death_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 168
+        width: 162
         height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -125,19 +125,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7dae7835e9c41848961690952790887
-      internalID: 1566136555
+      spriteID: ff25bcac462b93a479a9564a0b09119b
+      internalID: -1363811908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monster_anim_1
+      name: monster_death_1
       rect:
         serializedVersion: 2
-        x: 168
+        x: 162
         y: 0
-        width: 168
+        width: 162
         height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -147,19 +147,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bba9d11a601302c4190f8db27f3cdbea
-      internalID: 1845235923
+      spriteID: 1883b1b39cf719c4c968b40b5733dbfa
+      internalID: -1854183875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monster_anim_2
+      name: monster_death_2
       rect:
         serializedVersion: 2
-        x: 336
+        x: 324
         y: 0
-        width: 168
+        width: 162
         height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -169,19 +169,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e31b83357dd7f4f4e9a372b029c56db8
-      internalID: 482264533
+      spriteID: fa33b55e6cb39ca418f19105d5de937e
+      internalID: -1422318915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monster_anim_3
+      name: monster_death_3
       rect:
         serializedVersion: 2
-        x: 504
+        x: 486
         y: 0
-        width: 168
+        width: 162
         height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -191,19 +191,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdadb0bf92ec2854ba64f17364fba743
-      internalID: -1795975849
+      spriteID: 81ff90048f2c1b048ab4cebdba0facab
+      internalID: 1491018211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monster_anim_4
+      name: monster_death_4
       rect:
         serializedVersion: 2
-        x: 672
+        x: 648
         y: 0
-        width: 168
+        width: 162
         height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -213,19 +213,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09bda5fe2da1969409fabd12fbeddb45
-      internalID: -1018427587
+      spriteID: 88995e65ed7f74f40839f3e79ebb1ed5
+      internalID: 752860111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monster_anim_5
+      name: monster_death_5
       rect:
         serializedVersion: 2
-        x: 840
+        x: 810
         y: 0
-        width: 168
+        width: 162
         height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -235,19 +235,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c78cc71abacf16d4f8f097aee4f293f3
-      internalID: -1000695958
+      spriteID: d342303bdbfd4c54da56422e1387f860
+      internalID: -1695685484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monster_anim_6
+      name: monster_death_6
       rect:
         serializedVersion: 2
-        x: 1008
+        x: 972
         y: 0
-        width: 168
+        width: 162
         height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -257,19 +257,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5f6477650b9f544aa5f623750e5af1c
-      internalID: 262901740
+      spriteID: 3a5512bba1880964da5aeae986725a23
+      internalID: -110670228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monster_anim_7
+      name: monster_death_7
       rect:
         serializedVersion: 2
-        x: 1176
+        x: 1134
         y: 0
-        width: 168
+        width: 162
         height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -279,19 +279,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddee5938b1a278448ba273c5a2983c51
-      internalID: -883418704
+      spriteID: d0f21104565f10d43b4f6a8d96a21cd8
+      internalID: 1052590410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monster_anim_8
+      name: monster_death_8
       rect:
         serializedVersion: 2
-        x: 1344
+        x: 1296
         y: 0
-        width: 168
+        width: 162
         height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -301,8 +301,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95384d689d654c74395cbd12ba27c6e9
-      internalID: 1675725720
+      spriteID: ae59e6f47794da84ba2dbee20932d78e
+      internalID: 586073314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_death_9
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 0
+        width: 162
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370bce27ed622d24abdc91a432be7a4e
+      internalID: 855025952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_death_10
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 162
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683c546dd906053409d4bc68bac1afea
+      internalID: 71315408
       vertices: []
       indices: 
       edges: []
@@ -311,7 +355,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: dc55dc4e08b421341a53b56280f5d53f
+    spriteID: 5274f121e975fa1479481e4e618de1bc
     internalID: 0
     vertices: []
     indices: 
@@ -321,17 +365,19 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":1.0},"gridSpriteSize":{"x":168.0,"y":97.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":11.0,"y":1.0},"gridSpriteSize":{"x":162.0,"y":97.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      monster_anim_0: 1566136555
-      monster_anim_1: 1845235923
-      monster_anim_2: 482264533
-      monster_anim_3: -1795975849
-      monster_anim_4: -1018427587
-      monster_anim_5: -1000695958
-      monster_anim_6: 262901740
-      monster_anim_7: -883418704
-      monster_anim_8: 1675725720
+      monster_death_0: -1363811908
+      monster_death_1: -1854183875
+      monster_death_10: 71315408
+      monster_death_2: -1422318915
+      monster_death_3: 1491018211
+      monster_death_4: 752860111
+      monster_death_5: -1695685484
+      monster_death_6: -110670228
+      monster_death_7: 1052590410
+      monster_death_8: 586073314
+      monster_death_9: 855025952
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
