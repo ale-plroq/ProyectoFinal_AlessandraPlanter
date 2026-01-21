@@ -22,7 +22,7 @@ public class PlayerJump : MonoBehaviour
     private CharacterController controller;
     private PlayerActions playerActions;
 
-    private bool isGrounded = true;
+    public bool isGrounded { get; set; } = true;
 
     private Coroutine jumpCoroutine;
 

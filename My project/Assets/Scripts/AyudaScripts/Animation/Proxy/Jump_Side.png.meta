@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a9be1a4a571e9a44d8187e1dafbf8b33
+guid: 1e279c6de293dfe4daef26cedba0bf60
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -45,10 +45,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,30 +93,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Attack_Side_0
+      name: Jump_Side_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 83
-        height: 102
+        width: 43
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,20 +112,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e601dfbb2b3bc7b4e8784a22369d901d
-      internalID: 1355981809
+      spriteID: 3d6894fb16ccd474db283722b9cb50dd
+      internalID: -334564196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_Side_1
+      name: Jump_Side_1
       rect:
         serializedVersion: 2
-        x: 83
+        x: 43
         y: 0
-        width: 83
-        height: 102
+        width: 43
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16f65e1730bf08c4c95ecd8d8d3b2240
-      internalID: 1188712282
+      spriteID: 7145ff89458158f4e991933ebc1c7b46
+      internalID: -191632574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_Side_2
+      name: Jump_Side_2
       rect:
         serializedVersion: 2
-        x: 166
+        x: 86
         y: 0
-        width: 83
-        height: 102
+        width: 43
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 312def41f7c92814e8416492db726218
-      internalID: -1278136301
+      spriteID: 3750e8369130a7c438aca553a837a549
+      internalID: 1194155259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_Side_3
+      name: Jump_Side_3
       rect:
         serializedVersion: 2
-        x: 249
+        x: 129
         y: 0
-        width: 83
-        height: 102
+        width: 43
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fc258f6efee6d94dbc11f62727bb7f2
-      internalID: -1059352529
+      spriteID: 77812b840e09df741bd3b8525a6a8d58
+      internalID: -1114026141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_Side_4
+      name: Jump_Side_4
       rect:
         serializedVersion: 2
-        x: 332
+        x: 172
         y: 0
-        width: 83
-        height: 102
+        width: 43
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,8 +200,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f33919b74f388344842204125b69850
-      internalID: 1196530484
+      spriteID: 8182196986fcf214f8bd773daa7ad409
+      internalID: 1962547257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Side_5
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 0
+        width: 43
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e06f3408c447345b1227875af4092c
+      internalID: 666032640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Side_6
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 43
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d3ae8a45fb698498f9235556600f5f
+      internalID: 1787914104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Side_7
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 0
+        width: 43
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075160020f1db8f4bb0a6ed9b9c05e27
+      internalID: 185270180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Side_8
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0
+        width: 43
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e071c53c37ce34fb632ca65ac59531
+      internalID: 313695577
       vertices: []
       indices: 
       edges: []
@@ -223,7 +298,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 119349c96977d5e4e8b7954b15dbafd8
+    spriteID: 53f069bd22cb846468292fd4525bb4ae
     internalID: 0
     vertices: []
     indices: 
@@ -231,15 +306,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":1.0},"gridSpriteSize":{"x":83.0,"y":102.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Attack_Side_0: 1355981809
-      Attack_Side_1: 1188712282
-      Attack_Side_2: -1278136301
-      Attack_Side_3: -1059352529
-      Attack_Side_4: 1196530484
+      Jump_Side_0: -334564196
+      Jump_Side_1: -191632574
+      Jump_Side_2: 1194155259
+      Jump_Side_3: -1114026141
+      Jump_Side_4: 1962547257
+      Jump_Side_5: 666032640
+      Jump_Side_6: 1787914104
+      Jump_Side_7: 185270180
+      Jump_Side_8: 313695577
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -10,7 +10,7 @@ public class PlayerMove3D : MonoBehaviour
     public float speed = 1f;
     private float trueSpeed => speed / 10f;
 
-    private Vector2 moveDirection = Vector2.zero;
+    public Vector2 moveDirection { get; set; } = Vector2.zero;
 
     private CharacterController controller;
     public PlayerActions actions { get; private set; }

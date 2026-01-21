@@ -20,7 +20,7 @@ public class PlayerAttack3D : MonoBehaviour
         Cube
     }
 
-    private PlayerActions actions;
+    public PlayerActions actions {get; private set;}
 
     [Tooltip("Direction of the attack - Object's forward, or world right")]
     public AttackDirection attackDirection = AttackDirection.Forward;
