@@ -58,6 +58,6 @@ public class PlayerMove3D : MonoBehaviour
 
     private void FixedUpdate()
     {
-        controller.Move(new Vector3(moveDirection.x, 0, moveDirection.y) *  trueSpeed);
+        controller.Move(new Vector3(-moveDirection.x, 0, moveDirection.y) *  trueSpeed);
     }
 }
