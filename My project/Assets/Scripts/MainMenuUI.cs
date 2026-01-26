@@ -12,7 +12,7 @@ public class MainMenuUI : MonoBehaviour
 
     public void Load()
     {
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("NewGame");
     }
 
     public void QuitGame()
